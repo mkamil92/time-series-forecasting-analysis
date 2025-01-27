@@ -22,7 +22,7 @@ The goal of this project is to apply and compare various forecasting models on t
   - **Time**: Hourly timestamps.
   - **Temperature**: Primary KPI (in °C or °F).
   - **Humidity**: Relative humidity as a percentage.
-  - **Wind Speed**: Speed of the wind (e.g., in km/h or mph).
+  - **Wind Speed**: Speed of the wind 
   - Other weather-related features.
 
 ---
@@ -62,3 +62,8 @@ The goal of this project is to apply and compare various forecasting models on t
 - **ARIMA** and **SARIMA** provided accurate predictions by considering both trends and seasonality.
 - **Exponential Smoothing** worked reasonably well for forecasting temperature.
 - **AR** and **MA** models performed better when multivariate features were included.
+
+---
+
+   The forecasting results show that ARIMA and SARIMA models perform best for given data. ARIMA captures short-term trends effectively while SARIMA handles both trend and seasonality well. ETS provides stable but limited predictions and both AR and MA models fail to adapt to dynamic patterns, producing static forecasts. 
+## ARIMA is ideal for capturing trends and SARIMA excels when seasonality is present making them the most reliable choices for weather forecasting.
